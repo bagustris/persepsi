@@ -8,19 +8,22 @@ turut andil dalam memproses gelombang mekanik suara menjadi sinyal nerve.
 Otak bisa menambah dan mengurangi gain dalam sistem auditori.
 
 Mekanika kontrol otak ke sistem pendengaran tersebut juga meliputi 
-kemampuan otak untuk mengendalikan hair cell, artinya sistem efferent 
-(dari otak ke peripheral) bisa mengontrol ketidak-linearan sistem pendengaran.
+kemampuan otak untuk mengendalikan hair cell, artinya sistem efferent
+(dari otak ke peripheral) bisa mengontrol ketidaklinearan sistem pendengaran.
 
-Frekeunsi tinggi membantu sistem pendengaran kita 
+Frekuensi tinggi membantu sistem pendengaran kita
 untuk menentukan letak dari sumber suara.
 
-Bassilar membrane
+Basilar membrane
 Bandpass filter merupakan kumpulan bandpass filter kontinyu.
 Berapa jumlah filternya, tidak diketahui sampai sekarang.
-Setiap filter memiliki lebar bandwith yang berbeda
+Setiap filter memiliki lebar bandwidth yang berbeda
 (melebar) dari frekuensi rendah ke frekuensi tinggi.
 
-% cari respon frekuensi dari basilar membrane
+Respon frekuensi basilar membrane bersifat tonotopik: bagian base lebih sensitif
+terhadap frekuensi tinggi, sedangkan bagian apex lebih sensitif terhadap
+frekuensi rendah. Puncak respon bergeser sesuai frekuensi stimulus, sehingga
+posisi maksimum getaran dapat dipakai sebagai kode tempat (place coding).
 
 Pengukuran basilar membrane:
 gamma+chirp
@@ -58,13 +61,14 @@ of the activity in the
 auditory nerve
 The peak of histogram is synchronized with period of signals
 
-If we input singal under 2kHZ, we can observe phase locking.
+If we input signal under 2 kHz, we can observe phase locking.
 
 Dapatkah kita mempersepsi perbedaan fase suara?
-Banyak buku yang menyatakan bahwa manusia "tuli" terhadap persepsi fase.
-ide: buktikan (atau sebaliknya).
+Banyak buku yang menyatakan bahwa manusia "tuli" terhadap persepsi fase, tetapi
+pernyataan ini hanya benar untuk kasus tertentu. Pada sinyal kompleks, perubahan
+fase dapat mengubah bentuk gelombang temporal dan dapat memengaruhi timbre,
+lokalisasi, atau persepsi envelope. Eksperimen yang bisa dilakukan adalah
+membandingkan pasangan sinyal dengan spektrum amplitudo sama tetapi fase berbeda.
 
-XAB method relatif judgement ie easy for human being.
-
-
-
+XAB method adalah metode relative judgement yang cukup mudah dilakukan oleh
+responden manusia untuk membandingkan dua stimulus terhadap stimulus acuan.

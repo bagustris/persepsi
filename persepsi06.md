@@ -4,45 +4,56 @@ Catatan kuliah human perceptual system and its model
 
 Pemilihan frekuensi
 
-Menganalisa ketidak linearan?
+Menganalisa ketidaklinearan?
 1. Adanya harmonik.
-    Mengapa keharmonikan dapat diobservarsi?
-2. Hasil terdistosi
+    Mengapa harmonik dapat diobservasi?
+2. Hasil terdistorsi
 
 Adanya harmonik baru merupakan bukti bahwa suara terdistorsi pada telinga manusia. 
-Tidak hanya manusia, sistem audio pun juga tedistorsi serupa, hal ini disebut 
+Tidak hanya manusia, sistem audio pun juga terdistorsi serupa, hal ini disebut
 juga sebagai intermodulation distortion (IMD).
 
-Kompresi dan rektifasi
+Kompresi dan rektifikasi
 
 basal side (base) vs apical side (apex)
 Seperti diketahui sebelumnya, respon frekuensi pada basilar 
 membrane berjalan dari frekuensi tinggi (base) menuju frekuensi rendah (apex).
 
-Jika input snyal yang masuk terlalu kecil, misal 20 dB, 
+Jika input sinyal yang masuk terlalu kecil, misal 20 dB,
 maka OHC akan mengamplifikasi sinyal tsb. Amplifikasinya tidak linear.
 
-Jika level naik, BM akan bergetar, OHC tidak akan bekerja, namun peaknnya 
+Jika level naik, BM akan bergetar, kontribusi OHC berkurang, dan puncak respon
 akan didistribusikan ke sisi yang lain.
 
 IO function
 Merupakan gabungan antara respon IHC(pasif) dan OHC (aktif), pada level rendah 
 OHC mengamplifikasi gain. Seiring bertambahnya umur, kemampuan OHC untuk 
 mengamplifikasi gain akan melemah, sehingga tinggal respon IHC saja. Inilah 
-mengapa pada orang yang sangat tua tidak bisa mendengara suara kecil, namun bisa 
+mengapa pada orang yang sangat tua tidak bisa mendengar suara kecil, namun bisa
 mendengar suara dengan level yang tinggi.
 
 Two-tone suppression
-neural activity
-
-inhibition effet affects the outout
-
+Two-tone suppression terjadi ketika respon terhadap satu tone melemah karena
+kehadiran tone lain. Pada level neural, aktivitas saraf untuk tone target
+berkurang karena tone masker mengubah pola eksitasi pada basilar membrane.
+Inhibition effect affects the output: keluaran sistem auditori bukan sekadar
+penjumlahan linear dari dua tone.
 
 Efek durasi
+Durasi stimulus memengaruhi ambang dengar. Stimulus yang sangat pendek biasanya
+memerlukan level lebih tinggi agar terdengar, sedangkan stimulus yang lebih lama
+memberi kesempatan integrasi temporal sehingga ambang dengarnya lebih rendah.
 
 Pola eksitasi
+Pola eksitasi adalah distribusi aktivitas sepanjang basilar membrane untuk sebuah
+stimulus. Suara dengan level tinggi menghasilkan pola yang lebih lebar, sehingga
+lebih mudah menutupi suara lain pada frekuensi di sekitarnya.
 
 PTC
+Psychophysical Tuning Curve (PTC) digunakan untuk memperkirakan bentuk filter
+auditori secara psikoakustik. Probe tone disajikan pada frekuensi dan level
+tertentu, lalu masker digeser frekuensinya sampai probe tidak lagi terdengar.
+Level masker pada setiap frekuensi membentuk kurva tuning.
 
 Upward spread of masking
 Suara frekuensi rendah dapat dengan mudah menutupi suara frekuensi tinggi,
@@ -56,8 +67,8 @@ Jika sistem pendengaran berfungsi dengan baik, maka karena ketidaklinearan akan
 mengeluarkan suara. Beginilah cara untuk mengetes pendengaran pada bayi.
 
 Ore-ore san.
-Emisi Otoakustik bisa digunakan untuk speaker indivuality.
-NEC mengukur pemantulan akibat kanal telinga untuk mengukur speaker indivuality.
+Emisi Otoakustik bisa digunakan untuk speaker individuality.
+NEC mengukur pemantulan akibat kanal telinga untuk mengukur speaker individuality.
 
 Beat
 Hubungan beat dengan combination tones
@@ -83,6 +94,14 @@ A. Non-linearities in the cochlea:
 3. If you play two tones (say 1000 & 1200 Hz) a third tone can appear (at 800 Hz) - the so-called Cubic Difference Tone or Combination Tone.
 
 How to observe non-linearities in ears?
+Ketidaklinearan telinga dapat diamati dengan beberapa eksperimen:
+- mengukur otoacoustic emission setelah stimulus klik atau dua tone
+- mencari combination tone ketika dua tone disajikan bersamaan
+- membandingkan pertumbuhan respon basilar membrane pada level rendah dan tinggi
+- mengukur two-tone suppression dengan satu tone target dan satu tone masker
 
-B. Non-linearities of the response of the basilar membrane 
-
+B. Non-linearities of the response of the basilar membrane
+Respon basilar membrane bersifat kompresif. Pada level rendah, outer hair cell
+menambah gain sehingga sensitivitas meningkat. Pada level tinggi, tambahan gain
+berkurang dan respon mendekati pasif. Akibatnya, kenaikan input tidak selalu
+menghasilkan kenaikan output yang sebanding.

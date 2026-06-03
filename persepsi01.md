@@ -1,5 +1,5 @@
 # Persepsi  
-Indera manusia secara umum terbagi atas lima panca indera. Kelimanya meliputi penglihatan, pendengaran, peraba, perasa, dan pembau. Kelima indera tersebut diindera oleh mata, telinga, kulit, lidah dan hidung. Kelimanya membentuk persepsi manusia. Persepsi: organisasi, identifikasi dan interpretasi informasi sensori untuk merepresentasikan dan memahami lingkungan. Semua persepsi melibatkan sinyal dari sistem saraf (nerveous) yang dihasilkan dari stimulasi fisis dari organ pengindera.
+Indera manusia secara umum terbagi atas lima panca indera. Kelimanya meliputi penglihatan, pendengaran, peraba, perasa, dan pembau. Kelima indera tersebut diindera oleh mata, telinga, kulit, lidah dan hidung. Kelimanya membentuk persepsi manusia. Persepsi: organisasi, identifikasi dan interpretasi informasi sensori untuk merepresentasikan dan memahami lingkungan. Semua persepsi melibatkan sinyal dari sistem saraf (nervous system) yang dihasilkan dari stimulasi fisis dari organ pengindera.
 
 ## Penglihatan
 Mata merupakan indera penglihatan yang memiliki struktur kompleks yang terdiri atas lensa transparan yang memfokuskan cahaya pada retina. Retina sendiri terdiri atas dua organ penting, cell-rods dan cones. Cell-rods tidak sensitif terhadap warna namun sensitif terhadap cahaya daripada cones. Cones sensitif terhadap warna dan terletak pada bagian retina yang disebut fovea, di mana cahaya difokuskan oleh lensa. Manusia memiliki tiga cone (Red, green, blue) sedangkan anjing hanya memiliki dua saja (green dan blue), sehingga anjing tidak bisa membedakan warna hijau, kuning atau merah.
@@ -36,7 +36,7 @@ Pada beberapa orang yang buta warna, mereka tidak terlalu sensitif terhadap rasa
 ## Pembau
 Hidung merupakan organ pembau. Receptor pembau berinteraksi dengan molekul udara 
 dan mengirimkan sensasinya ke otak. Ada tujuh tipe bau yang bisa dirasakan: 
-kamper (kapur barus, champor),kasturi (musk), bunga (flower), mint, ether, sengit (acrid), atau busuk (putrid).
+kamper (kapur barus, camphor), kasturi (musk), bunga (flower), mint, ether, sengit (acrid), atau busuk (putrid).
 
 # Persepsi Multimodal
 Tidak hanya menggunakan satu jenis indera saja, manusia bisa menggunakan beberapa 
@@ -50,4 +50,6 @@ sistem indera seperti sistem penglihatan buatan, sistem pendengaran buatan (term
 didalamnya pengenalan suara dan pembicara), sensor pendengaran, sensor pembau, 
 sensor pengecap, maupun interface multimodal.
 
+## Ringkasan
+Pertemuan pertama memperkenalkan persepsi sebagai hasil organisasi dan interpretasi sinyal sensorik. Setiap indera memiliki organ, reseptor, dan jalur saraf yang berbeda, tetapi persepsi sehari-hari biasanya bersifat multimodal karena otak menggabungkan informasi dari beberapa indera sekaligus.
 

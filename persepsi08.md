@@ -1,4 +1,4 @@
-Materi 8, 
+# Materi 8: Masking
 
 Masking:
 Adanya suara yang menutupi suara lainnya.
@@ -15,30 +15,38 @@ Tiga tipe masking:
 
 Gap antara masking dan probe sangat penting. Dengan mengubah gap antara masking 
 dan probe, kita bisa mendapatkan profil respon telinga. 
-Lihat gambar berikut untuk penjelasan ketiganya.
+Penjelasan ketiganya:
+- Simultaneous masking: masker dan probe hadir pada waktu yang sama.
+- Forward masking: masker muncul lebih dulu, lalu probe muncul setelah masker
+  berhenti.
+- Backward masking: probe muncul lebih dulu, lalu masker muncul setelahnya.
 
-//gambar
-
-## Eskperimen Fletcher
+## Eksperimen Fletcher
 Prof Fletcher melakukan percobaan untuk mencari masking threshold. 
 Threshold ini untuk menentukan apakah responden masih bisa mendengarkan suara 
 target (probe) atau tidak.
 
 
-Zwicker find the relation of critical band with frekuensi.
+Zwicker menemukan hubungan antara critical band dan frekuensi.
 
-tanya: kenapa filter yang digunakan adalah filter linear?
+Kenapa filter yang digunakan adalah filter linear?
+Filter linear dipakai sebagai pendekatan awal agar bentuk bandwidth dan respon
+frekuensi dapat diukur dengan sederhana. Pada level rendah, pendekatan ini cukup
+berguna. Pada level tinggi, sistem auditori menjadi lebih nonlinear sehingga
+hasilnya perlu ditafsirkan sebagai model pendekatan, bukan deskripsi lengkap.
 
 
-Fletcher menemukan bahwa critical band merupakan bandwidth dari auditory filterbank.
-Terminology critical band ini dikritisi oleh pakar psikoakustik karena namun 
-banyak digunakan oleh engineering.
+Fletcher menemukan bahwa critical band dapat dipahami sebagai bandwidth dari
+auditory filterbank. Terminologi critical band dikritisi oleh pakar
+psikoakustik, tetapi masih banyak digunakan dalam bidang engineering.
 
-search: why critical band is wrong terminology
+Istilah critical band sering dikritik karena seolah-olah menunjukkan batas
+frekuensi yang tetap dan tajam. Dalam praktiknya, bandwidth filter auditori
+berubah menurut frekuensi pusat, level stimulus, dan metode pengukuran.
 
 ## ERB
 ERB menggunakan notch filter untuk menentukan apakah auditory filter simetri atau 
-tidak. Hasilnya, bentuk auditory filter asimetry bergantung pada level suara.
+tidak. Hasilnya, bentuk auditory filter asymmetry bergantung pada level suara.
 Artinya, pada level rendah bentuk filter mendekati simetri, namun tidak pada 
 level suara tinggi.
 
@@ -50,10 +58,15 @@ maka level probe tersebut masih pada jangkauan pola masking (bentuk filter)
 Pola masking ini bisa diturunkan dari auditory filterbank.
 
 CMR
-co-modulation is the similar modulation occur for each auditory filter band (shape)
+CMR (comodulation masking release) terjadi ketika masker pada beberapa band
+frekuensi memiliki pola modulasi yang sama. Kesamaan modulasi ini dapat membantu
+pendengar memisahkan target dari masker.
 
 Persepsi modulasi pada audio watermarking, sangat mungkin.
 
 
-// MAA (minimum audible angle)
-
+## MAA (minimum audible angle)
+MAA adalah sudut terkecil perubahan lokasi sumber suara yang masih dapat
+dibedakan oleh pendengar. Nilainya bergantung pada arah sumber suara, jenis
+stimulus, dan cue lokalisasi yang tersedia. Di depan kepala, manusia biasanya
+lebih sensitif terhadap perubahan sudut dibandingkan di samping atau belakang.

@@ -1,15 +1,15 @@
-Catatan kuliah "Human peceptual model and its sytem", pertemuan ke-11.
+Catatan kuliah "Human perceptual model and its system", pertemuan ke-11.
 
 Pitch dan pemodelannya
 
 Pure tone 100 Hz
-Peidodik kompleks stone --> Fundamental frekuensi.
+Periodic complex tone --> fundamental frequency.
 
 Periodik kompleks tone adalah jumlahan dari tones
 
 Misal, suatu kompleks tone terdiri dari 200, 400, 600 dan 800 Hz.
 Sehingga ketika didekomposisi ada lebih dari satu frekuensi: f0, f1, f2, f3, ..., fN.
-Frekuensi tersebut dinamakan harmonik. Harmonik berkaitan dengan picth.
+Frekuensi tersebut dinamakan harmonik. Harmonik berkaitan dengan pitch.
 
 Absolute pitch --> kemampuan telinga musisi untuk menentukan pitch/frekuensi dari suatu nada.
 
@@ -19,19 +19,20 @@ Harmonik dihasilkan oleh vocal folds, sedangkan formant dihasilkan oleh vocal tr
 Harmonik selalu berulang, sedangkan formant tidak.
 
 Teori persepsi pitch
-- Teori fase
-- Teori temporal
+- Teori tempat (place/spectral): pitch diperkirakan dari lokasi eksitasi pada
+  basilar membrane atau dari pola spektral harmonik.
+- Teori temporal: pitch diperkirakan dari periode firing atau sinkronisasi
+  aktivitas saraf terhadap periode stimulus.
 
 Dalam domain waktu, periode adalah cue yang penting. 
 Pada domain frekuensi, bisa saja f0 tidak muncul, sebaliknya hanya frekuensi tengah yang muncul. 
-Dalam hal ini, f0 bisa dihitung sebagai selish antara frekuensi pertama dengan frekuensi kedua.
+Dalam hal ini, f0 bisa dihitung sebagai selisih antara frekuensi pertama dengan frekuensi kedua.
 
 
-Slide hal 11.
-Periode sinyal dihitung dari selish antar dua puncak harmonik, misal untuk 500 Hz adalah 2 ms, sedang utuk 550 Hz adalah 1.8 detik.
+Periode sinyal dihitung dari selisih antar dua puncak harmonik, misal untuk 500 Hz adalah 2 ms, sedang untuk 550 Hz adalah sekitar 1.8 ms.
 
 limen, is expressed as a percentage of the baseline frequency
-limen = 
+limen = (delta f / f) x 100%
 
 Frekuensi diskriminan
 1000 Hz dengan 1002 Hz secara sekuensial maka dapat dibedakan antara frekuensi pertama dengan frekuensi kedua.
@@ -45,20 +46,23 @@ Penguncian frekuensi yang bisa terjadi pada stimulus dengan frekuensi rendah dan
 Missing fundamental
 Secara fisis tidak ada frekuensi dasar, tapi bisa dipersepsi.
 
-Miss tune
-Memindahkan fN lebih tinggi atau lebih rendah (halaman 17). Dari gambar tersebu yang paling dominan adalah memindah f2 dan f3 agar pitch yang dipersepsi berbeda.
+Mistune
+Memindahkan fN lebih tinggi atau lebih rendah (halaman 17). Dari gambar
+tersebut yang paling dominan adalah memindah f2 dan f3 agar pitch yang
+dipersepsi berbeda.
 
 Apakah ada hubungan antara loudness dengan pitch?
 Tidak ada, namun ada penelitian yang mengarah pada hal itu.
 
 Bagaimana mengekstrak f0?
-- autokorelasi, jika input merupakan sinyal periodik maka kita bisa mengestrak periodenya
-- zerrocrossing, jika input hanya pure tone maka mengekstrak titik dimana y=0 dan mengurangi antar titiknya bisa digunakan untuk mencari f0.
+- autokorelasi, jika input merupakan sinyal periodik maka kita bisa mengekstrak periodenya
+- zero-crossing, jika input hanya pure tone maka mengekstrak titik dimana y=0 dan mengurangi antar titiknya bisa digunakan untuk mencari f0.
 - FFT + (autokorelasi)
 - peak picking
-- 
+- cepstrum atau harmonic product spectrum untuk menonjolkan periodisitas harmonik
 
 Namun semua metode tersebut tidak akan bekerja pada sinyal kompleks semisal, speech.
-Untuk speech, metode yang baik adalah untuk mengeliminasi efek vocal tract, hanya glottis.
-
-
+Untuk speech, metode yang baik adalah untuk mengeliminasi efek vocal tract,
+sehingga estimasi f0 lebih merepresentasikan sumber glottis. Dalam praktik,
+algoritma f0 juga perlu menangani voiced/unvoiced decision, noise, dan formant
+yang dapat mengganggu peak picking sederhana.

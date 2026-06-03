@@ -40,7 +40,7 @@ Hilbert (transform): Untuk memisahkan sinyal suara kedalam TFS dan ENV
 
 Analisis Kepstrum
 Kepstrum merupakan spectrum dikalikan dengan log scale
-dengan notasi yang sama, maka frekuensi menjadi kuafrensi, filter menjadi lifter
+dengan notasi yang sama, maka frekuensi menjadi quefrency, filter menjadi lifter
 
 Analisa Parametrik
 AbS: Analysis-by-Synthesis
@@ -55,4 +55,6 @@ It used concatenate speech processing
 Ex: /ohayou/ --> /o/ /ha/ /yo/ /u/
 
 data != speech
-
+Data suara mentah belum tentu merepresentasikan struktur produksi wicara. Dalam
+analisis wicara, sinyal perlu dipisahkan antara sumber, filter, dan radiasi agar
+parameter yang diukur benar-benar berkaitan dengan mekanisme produksi suara.

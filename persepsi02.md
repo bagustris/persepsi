@@ -11,14 +11,14 @@ Komponen telinga bagian luar:
 - concha
 - ear canal
 
-Fungsi: untuk mengempasis suara frekuensi tingggi 
+Fungsi: untuk menekankan suara frekuensi tinggi
 yang penting untuk pendengaran spasial (menentukan 
 sumber suara dll)
 
 
 anatomi vs fisiologis sistem pendengaran?
-Anatomi approarch can be used to organized and naming the components
-Physisology approach is to know function of each components
+Anatomy approach can be used to organize and name the components.
+Physiology approach is used to understand the function of each component.
 
 Suara diindera oleh telinga sebagai tekanan suara (perbedaan tekanan udara), 
 informasi ini dikonversi oleh ear drum menjadi vibrasi mekanik menjadi 
@@ -39,19 +39,21 @@ Analogi 1: Rangkaian listrik
 Analogi 2: Berbicara dengan seseorang yang sedang menyelam
 
 Cochlea
-in one tube there is two room: scala vestibulli dan scala timpani. Diantara keduanya dipisahkan oleh bassilar membrane, di dalam bassilar membarane terdapat organ corti. Di dalam organ corti, terdapat inner hair cell dan outer hair cell.
+In one tube there are two rooms: scala vestibuli dan scala tympani. Di antara
+keduanya dipisahkan oleh basilar membrane, di dalam basilar membrane terdapat
+organ corti. Di dalam organ corti, terdapat inner hair cell dan outer hair cell.
 Oval window and round window saling berhubungan terbalik.
 
 Organ corti
 Dua komponen penting organ corti: hair cells dan tectorial membrane.
 Rambut yang menyentuh tectorial membrane disebut outer hair cell, sedangkan yang tidak menyentuhnya disebut inner hair cell.
-inner hair cell: mengkonversi getaran bassilar membrane menjadi neural firing.
+inner hair cell: mengkonversi getaran basilar membrane menjadi neural firing.
 Outer hair cell berfungsi untuk stretching ketika basilar membrane aktif (bergetar). Sehingga Outer hair cell bertindak sebagai gain 
 atau amplifier dari getaran basilar membrane.
 
 Telinga bagian dalam
 Fungsi cochlea --> frequency decomposition
-Bassilar membrane wave 
+Basilar membrane wave
 Traveling wave through high frequency on the base and low frequency on the end.
 Analogi, dua orang A dan B memegang tali. Si A menggerakkan tali, agar getaran sampai 
 pada B, maka A mengayunkan tali dengan cepat sehingga timbul gelombang berjalan frekuensi tinggi.
@@ -65,7 +67,12 @@ Dari telinga ke otak
 Afferent: Peripheral ke auditori korteks
 Efferent: otak ke peripheral
 
-Fletcher-Manson curve
+Fletcher-Munson curve
+Kurva Fletcher-Munson menggambarkan kontur loudness yang sama. Telinga manusia
+tidak memiliki sensitivitas yang sama untuk semua frekuensi: pada level rendah,
+frekuensi menengah sekitar 2-5 kHz terdengar lebih mudah dibanding frekuensi
+sangat rendah atau sangat tinggi. Karena itu, dua suara dengan SPL yang sama
+belum tentu dipersepsi sama lantangnya.
 
 Produksi suara
 sinyal suara yang kita persepsi terdiri atas tiga: glottis (sumber), resonansi (filter) dan radiasi
@@ -74,10 +81,12 @@ F1, F2 and F3 berasal dari vocal tract
 
 Persepsi suara
 Mode pertama dari getaran 100 Hz adalah 200 Hz, mode kedua 300 Hz, dst
-Mode-mode itu dinamakan harmonik, jika kita invers transform Fourrier maka akan kita dapatkan x(t)
+Mode-mode itu dinamakan harmonik, jika kita menerapkan inverse Fourier Transform maka akan kita dapatkan x(t)
 x(t)=F^{-1} F(\omega) 
 Contoh aplikasi: bunyi vokal (A,I, U, E, O) bisa dikenali dari F2-nya.
 
 STFT mengaplikasikan FT pada rentang integral tertentu.
 
-Link auditory system RWTH aachen
+Rujukan visual yang berguna untuk bagian ini adalah animasi sistem auditori,
+terutama animasi gelombang berjalan pada basilar membrane dan perubahan tekanan
+pada oval window serta round window.

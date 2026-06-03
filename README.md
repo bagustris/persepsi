@@ -1,4 +1,4 @@
-# Perseptual - Human Perceptual Systems and Models
+# Persepsi: Human Perceptual Systems and Models
 
 This repository contains lecture notes (in Indonesian/Bahasa Indonesia) from the course **I645: Human Perceptual Systems and its Models**, focusing primarily on auditory perception and the human hearing system.
 
@@ -10,38 +10,38 @@ These notes cover various aspects of human sensory perception with a strong emph
 
 The repository consists of 12 lecture notes covering the following topics:
 
-1. **[persepsi1.md](persepsi1.md)** - Introduction to Human Senses
+1. **[persepsi01.md](persepsi01.md)** - Introduction to Human Senses
    - Overview of five human senses (sight, hearing, touch, taste, smell)
    - Multimodal perception
    - Reverse engineering of sensory systems
 
-2. **[persepsi2.md](persepsi2.md)** - Auditory Signal Processing
+2. **[persepsi02.md](persepsi02.md)** - Auditory Signal Processing
    - Anatomy of the auditory system (outer, middle, inner ear)
    - Cochlea and basilar membrane motion
    - Fletcher-Munson curves
    - Sound production and perception
 
-3. **[persepsi3.md](persepsi3.md)** - Sound Representations and Signal Processing
+3. **[persepsi03.md](persepsi03.md)** - Sound Representations and Signal Processing
    - Auditory physiology and psychoacoustics
    - Sound characteristics (frequency, amplitude, phase)
    - Fourier transform and STFT
    - Filters and sound level measurements
 
-4. **[persepsi4.md](persepsi4.md)** - Signal Analysis Methods
+4. **[persepsi04.md](persepsi04.md)** - Signal Analysis Methods
    - Non-parametric analysis techniques
    - Parametric analysis (source-filter model)
    - Short-term spectral analysis
    - Cepstrum analysis
    - LPC and vocoder systems
 
-5. **[persepsi5.md](persepsi5.md)** - Physiology of Auditory Peripheral System
+5. **[persepsi05.md](persepsi05.md)** - Physiology of Auditory Peripheral System
    - Basilar membrane as bandpass filter bank
    - Gammatone filters
    - Hair cell mechanics
    - Place coding and phase locking
    - Neural network models
 
-6. **[persepsi6.md](persepsi6.md)** - Auditory Nonlinearities
+6. **[persepsi06.md](persepsi06.md)** - Auditory Nonlinearities
    - Frequency selectivity
    - Compression and rectification
    - IO functions and OHC/IHC responses
@@ -49,14 +49,14 @@ The repository consists of 12 lecture notes covering the following topics:
    - Otoacoustic emissions
    - Beat phenomena
 
-7. **[persepsi7.md](persepsi7.md)** - Cochlea Size and Frequency Range
+7. **[persepsi07.md](persepsi07.md)** - Cochlea Size and Frequency Range
    - Relationship between cochlea size and hearing range
 
-8. **[persepsi8.md](persepsi8.md)** - Masking
+8. **[persepsi08.md](persepsi08.md)** - Masking
    - Sound masking phenomena
    - Upward spread of masking
 
-9. **[persepsi9.md](persepsi9.md)** - Frequency Selectivity
+9. **[persepsi09.md](persepsi09.md)** - Frequency Selectivity
    - Basilar membrane resonance
    - Frequency component separation in complex sounds
 
@@ -71,12 +71,13 @@ The repository consists of 12 lecture notes covering the following topics:
     - Sound quality and color
     - Distinguishing between different instruments
 
-## Related Blog Posts
+## Related Posts
 
 For more detailed explanations and related content (in Indonesian), please visit the following blog posts:
 
 - [Outline Persepsi Pendengaran Manusia](https://bagustris.blogspot.com/2020/07/outline-persepsi-pendengaran-manusia.html) - An outline of human auditory perception
 - [Human Perceptual Systems Blog Series](https://bagustris.blogspot.com/search/label/persepsi) - Collection of posts related to perceptual systems
+- [Multisensory Communicative AI](https://bagustris.github.io/multisensory-communicative-ai/) - A sub-course on multisensory communication in AI taught by the same instructor
 
 ## Topics Covered
 

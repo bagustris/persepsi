@@ -22,7 +22,7 @@ Dua pengertian suara yakni sebagai gelombang (waveform) dan sensasi pendengaran 
 Karakteristik suara:
 Frekuensi, Amplitudo, Fase
 
-$$ \x(t) = A \sin (2 \pi f t + \phi ) $$
+$$ x(t) = A \sin (2 \pi f t + \phi ) $$
 
 Speech vs Voice
 Speech (suara ucap/sinyal wicara), suara ucap yang memiliki arti.
@@ -40,21 +40,32 @@ yang dapat kita rasakan adalah daya, bukan energi.
 Intensitas suara
 intensitas: daya suara yang ditransmisikan per unit area tiap detik
 unit = watt per square meter (w/m^2)
-10^{-12} = 2 \times 10^{-5} N/m^2 = 20 \micro Pa
+Referensi ambang dengar: I0 = 10^{-12} W/m^2, setara dengan tekanan RMS
+sekitar 2 x 10^{-5} N/m^2 atau 20 micro Pa.
  
 I = k P^2
 
 Sound level dalam dB
 60 dB SPL --> 60 dB lebih tinggi daripada referensi (0dB, intensity of 10^{-6} W/m^2)
 
-Fourrier Transform
+Fourier Transform
+Fourier Transform digunakan untuk mengubah representasi sinyal dari domain waktu
+ke domain frekuensi. Dengan transformasi ini, sinyal kompleks dapat dilihat
+sebagai penjumlahan komponen sinusoidal dengan frekuensi, amplitudo, dan fase
+tertentu.
 
-
-STFT mengaplikasikan FT pada rentang integral tertentu 
+Untuk sinyal suara yang berubah terhadap waktu, Fourier Transform biasa tidak
+cukup karena informasi waktunya hilang. Oleh karena itu digunakan Short-Time
+Fourier Transform (STFT), yaitu menerapkan Fourier Transform pada potongan sinyal
+pendek menggunakan window.
 
 Filter
+Filter digunakan untuk memilih atau menekan komponen frekuensi tertentu.
+Jenis-jenis filter yang umum:
+- low-pass filter: melewatkan frekuensi rendah dan menekan frekuensi tinggi
+- high-pass filter: melewatkan frekuensi tinggi dan menekan frekuensi rendah
+- band-pass filter: melewatkan rentang frekuensi tertentu
+- band-stop/notch filter: menekan rentang frekuensi tertentu
 
-
-
-
-
+Dalam sistem pendengaran, basilar membrane dapat dimodelkan sebagai filterbank
+yang memisahkan komponen frekuensi suara sebelum diteruskan ke saraf auditori.
