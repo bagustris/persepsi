@@ -23,6 +23,15 @@ ITD --> MSO (medial superior olive)
 ILD --> LSO (lateral superior olive)
 
 Jeffress Model
+Model Jeffress menjelaskan bagaimana otak menghitung ITD (interaural time
+difference) untuk melokalisasi sumber suara secara horizontal. Model ini
+mengusulkan adanya rangkaian delay line (jalur penundaan) dan coincidence
+detector (neuron pendeteksi kebetulan). Sinyal dari telinga kiri dan kanan
+merambat melalui delay line dengan arah berlawanan; sebuah coincidence detector
+hanya menyala maksimal ketika kedua sinyal tiba bersamaan. Karena suara dari satu
+arah tertentu menghasilkan ITD tertentu, posisi neuron yang paling aktif menjadi
+"peta" arah sumber suara (place coding untuk ITD). Mekanisme ini dianggap terjadi
+di MSO.
 
 ## PST Histogram
 PST (post-stimulus time) histogram menunjukkan distribusi waktu firing neuron

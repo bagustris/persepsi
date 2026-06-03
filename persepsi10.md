@@ -23,6 +23,14 @@ Namun hasil eksperimen dengan Stevens law sedikit berbeda
 untuk SPL dibawah 40 dB karena adanya blood noise.
 
 Bising stasioner vs non-stasioner
+Bising stasioner (stationary noise) adalah bising yang sifat statistiknya (rata-rata,
+varians, distribusi spektral) relatif tetap terhadap waktu, contohnya white noise
+atau dengung kipas yang konstan. Bising non-stasioner adalah bising yang sifatnya
+berubah terhadap waktu, contohnya suara lalu lintas, babble (kerumunan orang
+bicara), atau suara konstruksi yang naik-turun. Perbedaan ini penting dalam
+pengukuran loudness dan masking: pada bising stasioner loudness cenderung stabil,
+sedangkan pada bising non-stasioner loudness dipersepsi mengikuti perubahan level
+sehingga memerlukan model loudness yang bergantung waktu (time-varying loudness).
 
 ## Pitch
 Pitch adalah persepsi tinggi-rendah nada. Secara fisik pitch berkaitan erat

@@ -1,116 +1,117 @@
-# Persepsi: Human Perceptual Systems and Models
+# Persepsi: Sistem Persepsi Manusia dan Pemodelannya
 
-This repository contains lecture notes (in Indonesian/Bahasa Indonesia) from the course **I645: Human Perceptual Systems and its Models**, focusing primarily on auditory perception and the human hearing system.
+Repositori ini berisi catatan kuliah (dalam Bahasa Indonesia) dari mata kuliah **I645: Human Perceptual Systems and its Models**, yang berfokus terutama pada persepsi auditori dan sistem pendengaran manusia.
 
-## About
+## Tentang
 
-These notes cover various aspects of human sensory perception with a strong emphasis on auditory physiology, psychoacoustics, signal processing, and computational models of human hearing. The materials explore how humans perceive sound, from the physical mechanics of the ear to cognitive processing in the brain.
+Catatan ini membahas berbagai aspek persepsi sensori manusia dengan penekanan kuat pada fisiologi auditori, psikoakustik, pengolahan sinyal, dan model komputasi pendengaran manusia. Materinya menelusuri bagaimana manusia mempersepsi suara, mulai dari mekanika fisis telinga hingga pemrosesan kognitif di otak.
 
-## Contents
+## Daftar Isi
 
-The repository consists of 12 lecture notes covering the following topics:
+Repositori ini terdiri atas 12 catatan kuliah yang mencakup topik-topik berikut:
 
-1. **[persepsi01.md](persepsi01.md)** - Introduction to Human Senses
-   - Overview of five human senses (sight, hearing, touch, taste, smell)
-   - Multimodal perception
-   - Reverse engineering of sensory systems
+1. **[persepsi01.md](persepsi01.md)** - Pengantar Indera Manusia
+   - Gambaran lima panca indera (penglihatan, pendengaran, peraba, perasa, pembau)
+   - Persepsi multimodal
+   - Rekayasa terbalik (reverse engineering) sistem indera
 
-2. **[persepsi02.md](persepsi02.md)** - Auditory Signal Processing
-   - Anatomy of the auditory system (outer, middle, inner ear)
-   - Cochlea and basilar membrane motion
-   - Fletcher-Munson curves
-   - Sound production and perception
+2. **[persepsi02.md](persepsi02.md)** - Pengolahan Sinyal Auditori
+   - Anatomi sistem pendengaran (telinga luar, tengah, dalam)
+   - Cochlea dan gerakan basilar membrane
+   - Kurva Fletcher-Munson
+   - Produksi dan persepsi suara
 
-3. **[persepsi03.md](persepsi03.md)** - Sound Representations and Signal Processing
-   - Auditory physiology and psychoacoustics
-   - Sound characteristics (frequency, amplitude, phase)
-   - Fourier transform and STFT
-   - Filters and sound level measurements
+3. **[persepsi03.md](persepsi03.md)** - Representasi Suara dan Pengolahan Sinyal
+   - Fisiologi auditori dan psikoakustik
+   - Karakteristik suara (frekuensi, amplitudo, fase)
+   - Fourier transform dan STFT
+   - Filter dan pengukuran level suara
 
-4. **[persepsi04.md](persepsi04.md)** - Signal Analysis Methods
-   - Non-parametric analysis techniques
-   - Parametric analysis (source-filter model)
-   - Short-term spectral analysis
-   - Cepstrum analysis
-   - LPC and vocoder systems
+4. **[persepsi04.md](persepsi04.md)** - Metode Analisis Sinyal
+   - Teknik analisis non-parametrik
+   - Analisis parametrik (source-filter model)
+   - Analisis spektral jangka pendek
+   - Analisis kepstrum
+   - Sistem LPC dan vocoder
 
-5. **[persepsi05.md](persepsi05.md)** - Physiology of Auditory Peripheral System
-   - Basilar membrane as bandpass filter bank
-   - Gammatone filters
-   - Hair cell mechanics
-   - Place coding and phase locking
-   - Neural network models
+5. **[persepsi05.md](persepsi05.md)** - Fisiologi Sistem Auditori Perifer
+   - Basilar membrane sebagai bank filter bandpass
+   - Filter gammatone
+   - Mekanika hair cell
+   - Place coding dan phase locking
+   - Model jaringan saraf (neural network)
 
-6. **[persepsi06.md](persepsi06.md)** - Auditory Nonlinearities
-   - Frequency selectivity
-   - Compression and rectification
-   - IO functions and OHC/IHC responses
+6. **[persepsi06.md](persepsi06.md)** - Ketidaklinearan Auditori
+   - Pemilihan frekuensi (frequency selectivity)
+   - Kompresi dan rektifikasi
+   - Fungsi IO dan respon OHC/IHC
    - Two-tone suppression
-   - Otoacoustic emissions
-   - Beat phenomena
+   - Emisi otoakustik
+   - Fenomena beat
 
-7. **[persepsi07.md](persepsi07.md)** - Cochlea Size and Frequency Range
-   - Relationship between cochlea size and hearing range
+7. **[persepsi07.md](persepsi07.md)** - Ukuran Cochlea dan Rentang Frekuensi
+   - Hubungan antara ukuran cochlea dan rentang pendengaran
+   - Sistem auditori pusat, ITD/ILD, dan HRTF
 
 8. **[persepsi08.md](persepsi08.md)** - Masking
-   - Sound masking phenomena
+   - Fenomena penutupan (masking) suara
    - Upward spread of masking
 
-9. **[persepsi09.md](persepsi09.md)** - Frequency Selectivity
-   - Basilar membrane resonance
-   - Frequency component separation in complex sounds
+9. **[persepsi09.md](persepsi09.md)** - Pemilihan Frekuensi
+   - Resonansi basilar membrane
+   - Pemisahan komponen frekuensi pada suara kompleks
 
-10. **[persepsi10.md](persepsi10.md)** - Loudness, Pitch, and Timbre
-    - Perceptual attributes of sound
+10. **[persepsi10.md](persepsi10.md)** - Loudness, Pitch, dan Timbre
+    - Atribut perseptual suara
 
-11. **[persepsi11.md](persepsi11.md)** - Pitch and Its Models
-    - Pitch perception
-    - Pure tone analysis
+11. **[persepsi11.md](persepsi11.md)** - Pitch dan Pemodelannya
+    - Persepsi pitch
+    - Analisis pure tone
 
 12. **[persepsi12.md](persepsi12.md)** - Timbre
-    - Sound quality and color
-    - Distinguishing between different instruments
+    - Kualitas dan warna suara
+    - Membedakan berbagai instrumen
 
-## Related Posts
+## Tautan Terkait
 
-For more detailed explanations and related content (in Indonesian), please visit the following blog posts:
+Untuk penjelasan lebih rinci dan konten terkait (dalam Bahasa Indonesia), silakan kunjungi tulisan blog berikut:
 
-- [Outline Persepsi Pendengaran Manusia](https://bagustris.blogspot.com/2020/07/outline-persepsi-pendengaran-manusia.html) - An outline of human auditory perception
-- [Human Perceptual Systems Blog Series](https://bagustris.blogspot.com/search/label/persepsi) - Collection of posts related to perceptual systems
-- [Multisensory Communicative AI](https://bagustris.github.io/multisensory-communicative-ai/) - A sub-course on multisensory communication in AI taught by the same instructor
+- [Outline Persepsi Pendengaran Manusia](https://bagustris.blogspot.com/2020/07/outline-persepsi-pendengaran-manusia.html) - Garis besar persepsi pendengaran manusia
+- [Seri Blog Human Perceptual Systems](https://bagustris.blogspot.com/search/label/persepsi) - Kumpulan tulisan terkait sistem persepsi
+- [Multisensory Communicative AI](https://bagustris.github.io/multisensory-communicative-ai/) - Sub-mata kuliah tentang komunikasi multisensori dalam AI yang diajarkan oleh pengajar yang sama
 
-## Topics Covered
+## Topik yang Dibahas
 
-- **Auditory Anatomy**: Outer ear, middle ear, inner ear, cochlea, basilar membrane
-- **Psychoacoustics**: Perception of pitch, loudness, timbre, masking
-- **Signal Processing**: Fourier analysis, STFT, cepstrum, filtering
-- **Auditory Models**: Gammatone filters, place coding, phase locking
-- **Nonlinearities**: Otoacoustic emissions, two-tone suppression, combination tones
-- **Speech Processing**: Source-filter model, LPC, vocoders
+- **Anatomi Auditori**: Telinga luar, telinga tengah, telinga dalam, cochlea, basilar membrane
+- **Psikoakustik**: Persepsi pitch, loudness, timbre, masking
+- **Pengolahan Sinyal**: Analisis Fourier, STFT, kepstrum, filtering
+- **Model Auditori**: Filter gammatone, place coding, phase locking
+- **Ketidaklinearan**: Emisi otoakustik, two-tone suppression, combination tone
+- **Pengolahan Wicara**: Source-filter model, LPC, vocoder
 
-## Language
+## Bahasa
 
-The lecture notes are written in **Bahasa Indonesia** (Indonesian) with some technical terms in English.
+Catatan kuliah ini ditulis dalam **Bahasa Indonesia** dengan beberapa istilah teknis dalam Bahasa Inggris.
 
-## Usage
+## Penggunaan
 
-These notes are intended for students and researchers interested in:
-- Auditory perception
-- Psychoacoustics
-- Speech and audio processing
-- Computational models of hearing
-- Human-computer interaction
+Catatan ini ditujukan bagi mahasiswa dan peneliti yang tertarik pada:
+- Persepsi auditori
+- Psikoakustik
+- Pengolahan suara dan audio
+- Model komputasi pendengaran
+- Interaksi manusia-komputer (human-computer interaction)
 
-## Author
+## Penulis
 
-These lecture notes were transcribed and compiled by [Bagus Tris Atmaja](https://github.com/bagustris) during the Human Perceptual Systems and its Models course.
+Catatan kuliah ini ditranskrip dan disusun oleh [Bagus Tris Atmaja](https://github.com/bagustris) selama mengikuti mata kuliah Human Perceptual Systems and its Models.
 
-For more information, visit the [author's blog](https://bagustris.blogspot.com).
+Untuk informasi lebih lanjut, kunjungi [blog penulis](https://bagustris.blogspot.com).
 
-## License
+## Lisensi
 
-Please check with the repository owner for licensing information.
+Silakan hubungi pemilik repositori untuk informasi lisensi.
 
-## Contributing
+## Kontribusi
 
-If you find any errors or would like to contribute improvements to these notes, please feel free to open an issue or submit a pull request.
+Jika Anda menemukan kesalahan atau ingin berkontribusi memperbaiki catatan ini, silakan buka issue atau ajukan pull request.

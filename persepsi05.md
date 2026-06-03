@@ -39,7 +39,18 @@ Movement of the stereocilia:
 
 
 # Deep Neural Network (DNN)
-how neural network works
+Bagaimana neural network bekerja?
+Jaringan saraf tiruan (artificial neural network) terinspirasi dari cara neuron
+biologis bekerja. Setiap unit (neuron buatan) menerima beberapa input, mengalikan
+masing-masing input dengan bobot (weight), menjumlahkannya, menambahkan bias, lalu
+melewatkannya pada fungsi aktivasi non-linear (misal sigmoid, tanh, atau ReLU).
+Keluaran satu lapisan menjadi masukan lapisan berikutnya; jaringan dengan banyak
+lapisan tersembunyi (hidden layer) inilah yang disebut deep neural network.
+Pelatihan dilakukan dengan menyesuaikan bobot melalui backpropagation dan gradient
+descent agar selisih (loss) antara keluaran dan target mengecil. Dalam konteks
+auditori, DNN dapat memodelkan transformasi non-linear dari sinyal suara menjadi
+representasi seperti respon saraf, mirip dengan fungsi pemrosesan aktif sistem
+pendengaran.
 
 Place coding: A representation of information in
 terms of the place that is active (for example, on the

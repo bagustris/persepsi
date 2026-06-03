@@ -3,6 +3,11 @@ Auditory nonlinearities
 Catatan kuliah human perceptual system and its model
 
 Pemilihan frekuensi
+Pemilihan frekuensi (frequency selectivity) adalah kemampuan sistem pendengaran
+memisahkan komponen-komponen frekuensi pada suara kompleks. Kemampuan ini berasal
+dari basilar membrane yang berperilaku seperti bank filter bandpass. Namun proses
+ini tidak linear, sehingga muncul berbagai fenomena ketidaklinearan yang dibahas
+di bawah.
 
 Menganalisa ketidaklinearan?
 1. Adanya harmonik.

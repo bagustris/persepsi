@@ -33,6 +33,13 @@ Musisi bisa mengenali ketidak-adaan satu frekuensi yang hilang dari suatu susuna
 Pada telefon, meski terfilter, penerima bisa merasakan sensasi pitch penelfon.
 
 Dekomposisi impulse dan fungsi rektangular
+Sinyal apa pun dapat dipandang sebagai penjumlahan (superposisi) dari sinyal-sinyal
+sederhana. Pada dekomposisi impulse, sinyal diuraikan menjadi deretan impulse
+(delta) tergeser dan terskala; keluaran sistem linear kemudian menjadi penjumlahan
+respon impulse-nya (konvolusi). Fungsi rektangular (pulsa persegi) sering dipakai
+sebagai window untuk memotong sinyal pada rentang waktu tertentu; spektrum sebuah
+fungsi rektangular adalah fungsi sinc, sehingga pemilihan lebar window memengaruhi
+resolusi frekuensi pada analisis spektral.
 
 Karakteristik suara
 Daya : energi yang ditransmisikan per detik

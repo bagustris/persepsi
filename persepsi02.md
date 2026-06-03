@@ -29,14 +29,33 @@ Elevation dan azimuth (cone of confusion)
 A cone-shaped set of points, radiating outwards from a location midway between an organism's ears, from which a sound source produces identical phase delays and transient disparities, making the use of such binaural cues useless for sound localization. Any cross-section of the cone represents a set of points that are equidistant from the left ear and equidistant from the right ear.
 
 Desibel?
-desi = 10Basi
-desibel = 10 log_{10} \dfrac{P_o} {P_i}
+Desibel (dB) adalah satuan logaritmik untuk menyatakan rasio antara dua besaran,
+misalnya daya atau intensitas suara. Awalan "desi" berarti sepersepuluh (1/10),
+sehingga 1 bel = 10 desibel. Skala logaritmik dipakai karena rentang pendengaran
+manusia sangat lebar dan persepsi loudness mendekati logaritmik.
+
+Untuk rasio daya/intensitas:
+dB = 10 log_{10} (P / P_ref)
+
+dengan P_ref adalah daya/intensitas referensi (misal ambang dengar). Untuk rasio
+tekanan suara digunakan faktor 20 karena daya sebanding dengan kuadrat tekanan:
+dB = 20 log_{10} (p / p_ref).
 
 Telinga bagian tengah
 Fungsi telinga bagian tengah = impedance matching antara air-filled compartment (ear canal) dengan water-filled compartment (cochlea)
 So, what is impedance?
-Analogi 1: Rangkaian listrik
-Analogi 2: Berbicara dengan seseorang yang sedang menyelam
+Impedansi adalah ukuran hambatan suatu medium terhadap aliran energi (gerak).
+Udara memiliki impedansi rendah, sedangkan cairan dalam cochlea memiliki
+impedansi tinggi. Tanpa penyesuaian, sebagian besar energi suara akan dipantulkan
+pada batas udara-cairan. Telinga tengah (tulang pendengaran dan perbedaan luas
+membran timpani vs oval window) berfungsi menyesuaikan kedua impedansi ini agar
+energi suara ditransfer secara efisien.
+Analogi 1: Rangkaian listrik, impedansi seperti hambatan yang menentukan seberapa
+besar arus (energi) yang dapat mengalir; transfer daya maksimum terjadi saat
+impedansi sumber dan beban sesuai (matched).
+Analogi 2: Berbicara dengan seseorang yang sedang menyelam; suara dari udara sulit
+masuk ke air karena perbedaan impedansi yang besar, sehingga sebagian besar
+energinya dipantulkan di permukaan air.
 
 Cochlea
 In one tube there are two rooms: scala vestibuli dan scala tympani. Di antara

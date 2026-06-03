@@ -1,0 +1,34 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.47/dist/katex.min.css" integrity="sha384-nH0MfJ44wi1dd7w6jinlyBgljjS8EJAh2JBoRad8a3VDw2K69vfaaqm4WnR+gXtA" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.47/dist/katex.min.js" integrity="sha384-CwjPRVHTvLiMBFjEoij+QZViMV5rhTOIp7CJzl24JEqpRDA1sJFHVXXLURktbYYp" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.47/dist/contrib/auto-render.min.js" integrity="sha384-bjyGPfbij8/NDKJhSGZNP/khQVgtHUE5exjm4Ydllo42FwIgYsdLO2lXGmRBf5Mz" crossorigin="anonymous"></script>
+<script>
+  window.addEventListener("DOMContentLoaded", function () {
+    var katexOptions = {
+      throwOnError: false,
+      strict: "ignore"
+    };
+
+    document.querySelectorAll('script[type^="math/tex"]').forEach(function (script) {
+      var displayMode = /mode=display/.test(script.type);
+      var replacement = document.createElement(displayMode ? "div" : "span");
+
+      replacement.className = displayMode ? "math display" : "math inline";
+      katex.render(script.textContent, replacement, Object.assign({}, katexOptions, {
+        displayMode: displayMode
+      }));
+      script.replaceWith(replacement);
+    });
+
+    if (window.renderMathInElement) {
+      renderMathInElement(document.body, Object.assign({}, katexOptions, {
+        delimiters: [
+          { left: "$$", right: "$$", display: true },
+          { left: "\\[", right: "\\]", display: true },
+          { left: "\\(", right: "\\)", display: false },
+          { left: "$", right: "$", display: false }
+        ],
+        ignoredTags: ["script", "noscript", "style", "textarea", "pre", "code"]
+      }));
+    }
+  });
+</script>
