@@ -1,11 +1,11 @@
 ## Bab 2 Pengolahan sinyal auditori
 
-sistem pendengaran:
-1. telinga bagian luar
-2. telinga bagian tengah
-3. telinga bagian dalam
+Sistem pendengaran:
+1. Telinga bagian luar
+2. Telinga bagian tengah
+3. Telinga bagian dalam
 
-### telinga bagian luar
+### Telinga bagian luar
 Komponen telinga bagian luar:
 - pinna (daun telinga)
 - concha
@@ -35,11 +35,13 @@ sehingga 1 bel = 10 desibel. Skala logaritmik dipakai karena rentang pendengaran
 manusia sangat lebar dan persepsi loudness mendekati logaritmik.
 
 Untuk rasio daya/intensitas:
-dB = 10 log_{10} (P / P_ref)
 
-dengan P_ref adalah daya/intensitas referensi (misal ambang dengar). Untuk rasio
+$$\text{dB} = 10 \log_{10} \left( \frac{P}{P_\text{ref}} \right)$$
+
+dengan $$P_\text{ref}$$ adalah daya/intensitas referensi (misal ambang dengar). Untuk rasio
 tekanan suara digunakan faktor 20 karena daya sebanding dengan kuadrat tekanan:
-dB = 20 log_{10} (p / p_ref).
+
+$$\text{dB} = 20 \log_{10} \left( \frac{p}{p_\text{ref}} \right)$$
 
 Telinga bagian tengah
 Fungsi telinga bagian tengah = impedance matching antara air-filled compartment (ear canal) dengan water-filled compartment (cochlea)
@@ -78,8 +80,8 @@ Analogi, dua orang A dan B memegang tali. Si A menggerakkan tali, agar getaran s
 pada B, maka A mengayunkan tali dengan cepat sehingga timbul gelombang berjalan frekuensi tinggi.
 Sebaliknya, jika A mengayunkan tali dengan pelan, gelombang tali akan sampai pada B dengan frekuensi rendah.
 
-BBM --> variasi tekanan of 2 rooms
-Tuning bassilar membrane motion. Kebalikan dari tuning BMM ini merupakan bandpass filter.
+BMM --> variasi tekanan antara dua ruang (rooms).
+Tuning basilar membrane motion. Kebalikan dari tuning BMM ini merupakan bandpass filter.
 Gammatone filter? Karena distribusi impulse responsenya (transfer function) menyerupai distribusi gamma.
 
 Dari telinga ke otak
@@ -94,15 +96,17 @@ sangat rendah atau sangat tinggi. Karena itu, dua suara dengan SPL yang sama
 belum tentu dipersepsi sama lantangnya.
 
 Produksi suara
-sinyal suara yang kita persepsi terdiri atas tiga: glottis (sumber), resonansi (filter) dan radiasi
-F0 berasal glottis
-F1, F2 and F3 berasal dari vocal tract
+Sinyal suara yang kita persepsi terdiri atas tiga komponen: glottis (sumber), resonansi (filter), dan radiasi.
+F0 berasal dari glottis.
+F1, F2, dan F3 berasal dari vocal tract.
 
 Persepsi suara
 Mode pertama dari getaran 100 Hz adalah 200 Hz, mode kedua 300 Hz, dst
-Mode-mode itu dinamakan harmonik, jika kita menerapkan inverse Fourier Transform maka akan kita dapatkan x(t)
-x(t)=F^{-1} F(\omega) 
-Contoh aplikasi: bunyi vokal (A,I, U, E, O) bisa dikenali dari F2-nya.
+Mode-mode itu dinamakan harmonik. Jika kita menerapkan inverse Fourier Transform, maka akan kita dapatkan $$x(t)$$:
+
+$$x(t) = \mathcal{F}^{-1} F(\omega)$$
+
+Contoh aplikasi: bunyi vokal (A, I, U, E, O) bisa dikenali dari F2-nya.
 
 STFT mengaplikasikan FT pada rentang integral tertentu.
 

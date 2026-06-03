@@ -42,18 +42,18 @@ fungsi rektangular adalah fungsi sinc, sehingga pemilihan lebar window memengaru
 resolusi frekuensi pada analisis spektral.
 
 Karakteristik suara
-Daya : energi yang ditransmisikan per detik
-yang dapat kita rasakan adalah daya, bukan energi.
+Daya: energi yang ditransmisikan per detik.
+Yang dapat kita rasakan adalah daya, bukan energi.
 Intensitas suara
-intensitas: daya suara yang ditransmisikan per unit area tiap detik
-unit = watt per square meter (w/m^2)
-Referensi ambang dengar: I0 = 10^{-12} W/m^2, setara dengan tekanan RMS
-sekitar 2 x 10^{-5} N/m^2 atau 20 micro Pa.
- 
-I = k P^2
+Intensitas: daya suara yang ditransmisikan per unit area tiap detik.
+Satuannya watt per meter persegi ($$\text{W/m}^2$$).
+Referensi ambang dengar: $$I_0 = 10^{-12}~\text{W/m}^2$$, setara dengan tekanan RMS
+sekitar $$2 \times 10^{-5}~\text{N/m}^2$$ atau 20 µPa.
+
+$$I = k P^2$$
 
 Sound level dalam dB
-60 dB SPL --> 60 dB lebih tinggi daripada referensi (0dB, intensity of 10^{-6} W/m^2)
+60 dB SPL --> 60 dB lebih tinggi daripada referensi (0 dB, intensitas $$10^{-12}~\text{W/m}^2$$).
 
 Fourier Transform
 Fourier Transform digunakan untuk mengubah representasi sinyal dari domain waktu

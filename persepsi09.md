@@ -2,7 +2,7 @@ Catatan kuliah I645: Human perceptual model and its system, pertemuan ke-9.
 
 Pemilihan frekuensi: Kemampuan telinga untuk memisahkan komponen frekuensi 
 dari suara kompleks. Basilar membrane hanya bergetar pada tempat/lokasi
-dimana frekuensinya sama (resonansi). Lihat lagi video animasi basilar membrane 
+di mana frekuensinya sama (resonansi). Lihat lagi video animasi basilar membrane 
 untuk memahami fenomena ini.
 
 Untuk mengukur PTC (threshold):

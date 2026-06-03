@@ -3,8 +3,8 @@ catatan kuliah "Human perceptual model and its system", Pertemuan ke-10.
 Loudness, pitch, and timbre
 Kelantangan, pitch, dan timbre
 
-intensitas: daya suara yang ditransmisikan pada suatu area
-Unit = w/m^2
+Intensitas: daya suara yang ditransmisikan pada suatu area.
+Satuannya $$\text{W/m}^2$$.
 
 loudness matching
 menyiapkan dua nada, lalu menyesuaikan level salah satunya sampai keduanya
@@ -14,13 +14,14 @@ Loudness scales
 variasi magnitude subyektif dengan magnitude fisik
 
 Stevens' power law
-N = kI^alpha = k'P^(2alpha)
 
-dimana, N= kelantangan, I=intensitas, alfa=konstanta
-P= sound pressure levels
+$$N = kI^\alpha = k'P^{2\alpha}$$
 
-Namun hasil eksperimen dengan Stevens law sedikit berbeda 
-untuk SPL dibawah 40 dB karena adanya blood noise.
+dengan $$N$$ = kelantangan (loudness), $$I$$ = intensitas, $$\alpha$$ = konstanta,
+dan $$P$$ = sound pressure level.
+
+Namun hasil eksperimen dengan Stevens' law sedikit berbeda
+untuk SPL di bawah 40 dB karena adanya blood noise.
 
 Bising stasioner vs non-stasioner
 Bising stasioner (stationary noise) adalah bising yang sifat statistiknya (rata-rata,

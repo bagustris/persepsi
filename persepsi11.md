@@ -29,10 +29,11 @@ Pada domain frekuensi, bisa saja f0 tidak muncul, sebaliknya hanya frekuensi ten
 Dalam hal ini, f0 bisa dihitung sebagai selisih antara frekuensi pertama dengan frekuensi kedua.
 
 
-Periode sinyal dihitung dari selisih antar dua puncak harmonik, misal untuk 500 Hz adalah 2 ms, sedang untuk 550 Hz adalah sekitar 1.8 ms.
+Periode sinyal dihitung dari selisih antara dua puncak harmonik, misal untuk 500 Hz adalah 2 ms, sedangkan untuk 550 Hz adalah sekitar 1,8 ms.
 
-limen, is expressed as a percentage of the baseline frequency
-limen = (delta f / f) x 100%
+Limen dinyatakan sebagai persentase dari frekuensi acuan:
+
+$$\text{limen} = \frac{\Delta f}{f} \times 100\%$$
 
 Frekuensi diskriminan
 1000 Hz dengan 1002 Hz secara sekuensial maka dapat dibedakan antara frekuensi pertama dengan frekuensi kedua.
@@ -56,7 +57,7 @@ Tidak ada, namun ada penelitian yang mengarah pada hal itu.
 
 Bagaimana mengekstrak f0?
 - autokorelasi, jika input merupakan sinyal periodik maka kita bisa mengekstrak periodenya
-- zero-crossing, jika input hanya pure tone maka mengekstrak titik dimana y=0 dan mengurangi antar titiknya bisa digunakan untuk mencari f0.
+- zero-crossing, jika input hanya pure tone maka mengekstrak titik di mana $$y = 0$$ dan menghitung selisih antar titik bisa digunakan untuk mencari f0.
 - FFT + (autokorelasi)
 - peak picking
 - cepstrum atau harmonic product spectrum untuk menonjolkan periodisitas harmonik

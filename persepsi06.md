@@ -80,7 +80,7 @@ Hubungan beat dengan combination tones
 beat hanya terjadi jika beda frekuensinya kecil, jika lebih dari 15 Hz maka 
 tidak terjadi
 
-Fenomena-fenomena diatas adalah penjelasan tentang efek ketidaklinearan sistem pendengaran.
+Fenomena-fenomena di atas adalah penjelasan tentang efek ketidaklinearan sistem pendengaran.
 Adakah sistem pendengaran yang linear?
 Ada, sistem pendengaran orang yang sudah meninggal masih bisa memberikan respon 
 (output), namun (mendekati) linear.

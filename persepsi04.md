@@ -16,7 +16,7 @@ Contoh dalam analisa suara:
 
 
 Analisis Parametrik
-Untuk mendapatkan sinyal target, digunakan model tertentu dimana sinyal target 
+Untuk mendapatkan sinyal target, digunakan model tertentu di mana sinyal target
 bergantung pada model.
 Contoh: Y = f(a, b, c, ...)
 a, b, c, ... adalah parameter
@@ -36,7 +36,7 @@ window sempit: temporal envolope (filter)
 TFS, ENV dan Hilbert
 TFS: Temporal Fine Structure
 ENV: Temporal Envelope
-Hilbert (transform): Untuk memisahkan sinyal suara kedalam TFS dan ENV
+Hilbert (transform): Untuk memisahkan sinyal suara ke dalam TFS dan ENV
 
 Analisis Kepstrum
 Kepstrum merupakan spectrum dikalikan dengan log scale

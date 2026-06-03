@@ -32,7 +32,7 @@ chirp:  characteristic short sharp sound especially of a small bird or insect
 
 BMM: basilar membrane motion
 Gerakan basilar membrane karena respon suara
-Pada "dancing hair cell" dibawah, terlihat gerakan OHC akibat respon musik.
+Pada "dancing hair cell" di bawah, terlihat gerakan OHC akibat respon musik.
 Movement of the stereocilia:
 → Electrical change in the IHCs
 → Firing (activity) in Neurons (spike)
